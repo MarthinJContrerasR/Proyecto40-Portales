@@ -37,4 +37,53 @@
    
     height: 90vh;
     margin: 10px;
+
+    div{
+        
+        margin: 5px;
+        color: var(--texto);
+        text-align: center;
+        
+    }
+
+    .bloque1{
+        grid-area: bloque1;
+    }
+    .bloque2{
+        grid-area: bloque2;
+    }
+    .bloque3{
+        grid-area: bloque3;
+    }
+    .bloque4{
+        grid-area: bloque4;
+    }
+    .bloque5{
+        grid-area: bloque5;
+    }
+    .bloque6{
+        grid-area: bloque6;
+       
+      
+    }
+    .bloque7{
+        grid-area: bloque7;
+    }
+    .bloque8{
+        grid-area: bloque8;
+    }
+    .bloque9{
+        grid-area: bloque9;
+    }
+    .bloque10{
+        grid-area: bloque10;
+    }
+    .bloque11{
+        grid-area: bloque11;
+    }
+
+    p{
+        margin-top: 10px;
+    }
+    
 }
