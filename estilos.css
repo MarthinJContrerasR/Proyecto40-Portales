@@ -9,3 +9,32 @@
     padding: 0;
     margin: 0;
 }
+
+.contenedor{
+    font-family: "Agbalumo";
+    padding: 30px;
+    background-color: var(--fondo);
+    display: grid;
+    grid-template-areas: "bloque1 bloque2 bloque2 bloque2 bloque2"
+                         "bloque1 bloque2 bloque2 bloque2 bloque2"
+                         "bloque1 bloque2 bloque2 bloque2 bloque2"
+                         "bloque1 bloque3 bloque3 bloque3 bloque3"
+                         "bloque1 bloque3 bloque3 bloque3 bloque3"
+                         "bloque1 bloque4 bloque4 bloque4 bloque4"
+                         "bloque1 bloque4 bloque4 bloque4 bloque4"
+                         "bloque1 bloque4 bloque4 bloque4 bloque4"
+                         "bloque1 bloque5 bloque5 bloque5 bloque5"
+                         "bloque1 bloque5 bloque5 bloque5 bloque5"
+                         "bloque1 bloque5 bloque5 bloque5 bloque5"
+                         "bloque1 bloque5 bloque5 bloque5 bloque5"
+                         "bloque1 bloque5 bloque5 bloque5 bloque5"
+                         "bloque1 bloque5 bloque5 bloque5 bloque5"
+                         "bloque1 bloque6 bloque6 bloque7 bloque8"
+                         "bloque1 bloque6 bloque6 bloque7 bloque8"
+                         "bloque1 bloque6 bloque6 bloque7 bloque8"
+                         "bloque1 bloque9 bloque9 bloque10 bloque11"
+                         "bloque1 bloque9 bloque9 bloque10 bloque11";
+   
+    height: 90vh;
+    margin: 10px;
+}
