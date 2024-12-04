@@ -169,54 +169,77 @@
     }
 }
 
-@media (max-width:900px){
-    .contenedor{
+@media (max-width: 900px) {
+    .contenedor {
         width: 100%;
         font-family: "Agbalumo";
         padding: 30px;
         background-color: var(--fondo);
         display: grid;
-        grid-template-areas: "bloque1 bloque1 bloque1 bloque1 bloque1 bloque1"
-                             "bloque2 bloque2 bloque2 bloque2 bloque2 bloque2"
-                             "bloque2 bloque2 bloque2 bloque2 bloque2 bloque2"
-                             "bloque3 bloque3 bloque3 bloque3 bloque3 bloque3"
-                             "bloque3 bloque3 bloque3 bloque3 bloque3 bloque3"
-                             "bloque4 bloque4 bloque4 bloque4 bloque4 bloque4"
-                             "bloque4 bloque4 bloque4 bloque4 bloque4 bloque4"
-                             "bloque4 bloque4 bloque4 bloque4 bloque4 bloque4"
-                             "bloque5 bloque5 bloque5 bloque5 bloque5 bloque5"
-                             "bloque5 bloque5 bloque5 bloque5 bloque5 bloque5"
-                             "bloque5 bloque5 bloque5 bloque5 bloque5 bloque5"
-                             "bloque5 bloque5 bloque5 bloque5 bloque5 bloque5"
-                             "bloque5 bloque5 bloque5 bloque5 bloque5 bloque5"
-                             "bloque5 bloque5 bloque5 bloque5 bloque5 bloque5"
-                             "bloque6 bloque6 bloque7 bloque7 bloque8 bloque8"
-                             "bloque6 bloque6 bloque7 bloque7 bloque8 bloque8"
-                             "bloque6 bloque6 bloque7 bloque7 bloque8 bloque8"
-                             "bloque9 bloque9 bloque10 bloque10 bloque11 bloque11"
-                             "bloque9 bloque9 bloque10 bloque10 bloque11 bloque11";
-       
+        grid-template-areas: 
+            "bloque1 bloque1 bloque1 bloque1 bloque1 bloque1"
+            "bloque2 bloque2 bloque2 bloque2 bloque2 bloque2"
+            "bloque3 bloque3 bloque3 bloque3 bloque3 bloque3"
+            "bloque4 bloque4 bloque4 bloque4 bloque4 bloque4"
+            "bloque5 bloque5 bloque5 bloque5 bloque5 bloque5"
+            "bloque6 bloque6 bloque7 bloque7 bloque8 bloque8"
+            "bloque9 bloque9 bloque10 bloque10 bloque11 bloque11";
         height: 100%;
         margin: 10px;
-        div{
-            
-            margin: 5px;
-            color: var(--texto);
-            text-align: center;
-            
-        }
-        .titulo1{
-            color: var(--texto);
-            font-size: 25px;
-        }
-        .titulo2{
-            color: var(--texto);
-            font-size: 19px;
-        }
-        .titulo3{
-            color:var(--texto);
-            font-size: 18px;
-            color: black;
-        }
-    }   
+    }
+
+    .contenedor div {
+        margin: 5px;
+        color: var(--texto);
+        text-align: center;
+    }
+
+    .titulo1 {
+        color: var(--texto);
+        font-size: 25px;
+    }
+
+    .titulo2 {
+        color: var(--texto);
+        font-size: 19px;
+    }
+
+    .titulo3 {
+        color: black;
+        font-size: 18px;
+    }
+
+    .darkBTN {
+        width: 90%;
+        background-color: white;
+        margin: 20px auto;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .darkBTN button {
+        background-color: darkgreen;
+        border: none;
+        padding: 6px;
+        border-radius: 4px;
+        color: white;
+        width: 100px;
+        align-self: center;
+        margin-top: 8px;
+        cursor: pointer;
+    }
+
+    .modo-dark__body {
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .modo-dark__tarjeta {
+        background-color: rgba(26, 25, 25, 0.8);
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
 }
