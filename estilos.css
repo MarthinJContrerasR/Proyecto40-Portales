@@ -1,0 +1,11 @@
+:root{
+    --fondo: #BDE0FE;
+    --botones: #2A9D8F;
+    --texto: #023E8A;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
