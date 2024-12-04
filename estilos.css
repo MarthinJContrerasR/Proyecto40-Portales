@@ -10,6 +10,38 @@
     margin: 0;
 }
 
+.darkBTN{
+    width: 800px;
+    background-color: white;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.darkBTN button{
+    background-color: darkgreen;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    color: white;
+    width: 150px;
+    align-self: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.modo-dark__body{
+    background-color: rgba(0, 0, 0, 0.732);
+}
+
+.modo-dark__tarjeta{
+    background-color: rgba(26, 25, 25, 0.587);
+    color: white;
+}
+
 .contenedor{
     font-family: "Agbalumo";
     padding: 30px;
@@ -186,6 +218,5 @@
             font-size: 18px;
             color: black;
         }
-    }
-    
+    }   
 }
